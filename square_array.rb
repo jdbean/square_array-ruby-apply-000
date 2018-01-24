@@ -10,5 +10,5 @@ end
 # Advanced implementation
 
 def square_array(array)
-  square_array.collect {|x| x**2}
+  array.collect {|x| x**2}
 end
